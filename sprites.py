@@ -26,7 +26,6 @@ class Player(pygame.sprite.Sprite):
         self.player_width = pygame.Surface.get_width(self.image)
         self.player_height = pygame.Surface.get_height(self.image)
 
-
     def update(self):
         self.accel = VEC(0,GRAVITY)
 
@@ -94,7 +93,6 @@ class Player(pygame.sprite.Sprite):
                 self.image = self.game.jump_frame_l
             else:
                 self.image = self.game.jump_frame_r
-
 
         # walk animation
         if self.walking:

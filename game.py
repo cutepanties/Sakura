@@ -285,4 +285,3 @@ class Sakura:
         # waits for the player to press a key 
         # it they want to play again
         self.wait_for_key()
-

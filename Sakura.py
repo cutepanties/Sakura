@@ -13,4 +13,3 @@ while not sakura.done:
         sakura.game_over()
 
 pygame.quit()
-
